@@ -21,3 +21,18 @@ body{
     padding: 30px;
     color: #ffffff
 }
+
+.escola {
+    background-image: linear-gradient();
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 24px;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.texto-lista {
+    display: inline-block;
+    list-style-type: none;
+}

@@ -8,18 +8,21 @@ body{
 .cabecalho {
     background-color: blue;
    display: flex;
+   align-items: flex-end;
    justify-content: space-around;
 }
 
-.cabeçalho-imagem {
-    width: 80%;
+.cabecalho-imagem {
+    width: 40%;
     padding: 12px
 }
 
-.lista-cabeçalho {
+.lista-cabeçalho-item {
     display:inline-block;
     padding: 30px;
-    color: #ffffff
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bolder;
 }
 
 .escola {
@@ -27,10 +30,7 @@ body{
     display: flex;
     justify-content: right;
     align-items: center;
-    padding: 24px;
-    color: aliceblue;
-    font-size: 15px;
-    font-weight: bolder;
+    padding: 24px 0;
 }
 .texto-lista {
     display: inline-block;
